@@ -4,7 +4,11 @@ This repository includes the code for our papers, titled *SoBigDemicSys: A Socia
 
 > Accurate forecasting and analysis of emerging pandemics play a crucial role in effective public health management and decision-making. Traditional approaches primarily rely on epidemiological data, overlooking other valuable sources of information that could act as sensors or indicators of pandemic patterns. In this paper, we propose a novel framework called MGLEP that integrates temporal graph neural networks and multi-modal data for learning and forecasting. We incorporate big data sources, including social media content, by utilizing specific pre-trained language models and discovering the underlying graph structure among users. This integration provides rich indicators of pandemic dynamics through learning with temporal graph neural networks. Extensive experiments demonstrate the effectiveness of our framework in pandemic forecasting and analysis, outperforming traditional methods, across different areas, pandemic situations, and prediction horizons. The fusion of temporal graph learning and multi-modal data enables a comprehensive understanding of the pandemic landscape with less time lag, cheap cost, and more potential information indicators.
 
-## Structure
+### MGLEP Framework Architecture
+
+![MGLEP framework](multi_modal_framework.png)
+
+## Repository Structure
 
 * *data*: the multimodal data, includes the processed and generated graph-structured data from social media data
 
